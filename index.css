@@ -381,36 +381,6 @@ nav {
         }
     }
 
-    /* nav {
-        justify-content: space-between;
-
-        >div:nth-child(2) {
-            flex-direction: column;
-            background: var(--primaryColor);
-            position: fixed;
-            top: 0;
-            right: -200px;
-            width: 180px;
-            height: 100%;
-            z-index: 2;
-            transition: all 0.3s;
-
-            button {
-                top: 25px;
-                left: 25px;
-            }
-        }
-
-        button {
-            position: absolute;
-            display: block;
-            background: none;
-            border: none;
-            font-size: 25px;
-            color: white;
-        }
-    } */
-
     .header__hero {
 
         justify-content: center;
