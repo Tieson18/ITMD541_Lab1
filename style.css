@@ -191,13 +191,17 @@ nav {
     gap: 40px;
     margin-top: 30px;
 
-    div {
+    >div {
         background: var(--secondaryColor);
         border-radius: 10px;
         padding: 10px 30px;
         font-size: 13px;
         font-weight: 300;
         transition: all 0.5s;
+
+        >div {
+            padding: 10px 30px;
+        }
 
         img {
             width: 40px;
@@ -209,7 +213,7 @@ nav {
             line-height: 1.9em;
         }
 
-        span {
+        h3 {
             color: var(--primaryColor);
             font-weight: 500;
             font-size: 16px;
@@ -225,7 +229,7 @@ nav {
             background: var(--primaryColor);
             transform: translateY(-10px);
 
-            span {
+            h3 {
                 color: white;
             }
         }
