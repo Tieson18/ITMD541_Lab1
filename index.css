@@ -40,13 +40,9 @@ h1 {
     transition: all 0.2s;
 }
 
-.scrolled {
-    background: rgba(0, 0, 0, 0.8)
-}
-
 #header {
     width: 100%;
-    /* background: rgba(0, 0, 0, 0.8); */
+    background: rgba(0, 0, 0, 0.8);
     position: sticky;
     top: 0;
     z-index: 1;
@@ -291,7 +287,7 @@ nav {
     gap: 40px;
     margin-top: 3em;
 
-    >div {
+    >article {
         border-radius: 10px;
         position: relative;
         overflow: hidden;
