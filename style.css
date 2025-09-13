@@ -166,26 +166,26 @@ nav {
 }
 
 /* ------about------ */
-#about {
+#summary {
     margin-top: 3em;
     padding: 30px 0px;
+}
 
-    .about__flex {
-        >div:Last-child {
-            p {
-                text-align: justify;
-                transition: all 0.2s;
-            }
+.summary__flex {
+    >div:Last-child {
+        p {
+            text-align: justify;
+            transition: all 0.2s;
+        }
 
-            >div:first-child {
-                display: flex;
-                margin: 20px 0px 40px;
-            }
+        >div:first-child {
+            display: flex;
+            margin: 20px 0px 40px;
         }
     }
 }
 
-.about__list {
+.summary__list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 40px;
@@ -231,49 +231,6 @@ nav {
         }
     }
 }
-
-/* .tab__links {
-    margin-right: 50px;
-    font-size: 18px;
-    font-weight: 500;
-    cursor: pointer;
-    position: relative;
-    transition: all 0.2s;
-
-    &::after {
-        content: "";
-        width: 0%;
-        height: 3px;
-        background: var(--primaryColor);
-        position: absolute;
-        left: 0;
-        bottom: -8px;
-        transition: width 0.5s;
-    }
-}
-
-.active__link::after {
-    width: 100%;
-}
-
-.tab__contents {
-    display: none;
-
-    li {
-        list-style: none;
-        line-height: 30px;
-    }
-
-    span {
-        color: var(--primaryColor);
-        font-size: 14px;
-    }
-
-}
-
-.active__tab {
-    display: block;
-} */
 
 /* -----work----- */
 #work {
