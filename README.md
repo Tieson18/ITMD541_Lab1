@@ -21,7 +21,3 @@ The webpage includes the following sections:
 
 ## 🚀 Live Demo  
 🔗 [View my webpage on GitHub Pages](https://tieson18.github.io/ITMD541_Lab1/)  
-
----
-
-## 📂 Repository Contents  
